@@ -6,6 +6,7 @@ export const LargeCard = ({ img, title, description, buttonText }) => {
       <div className="relative h-96 min-w[300px]">
         <Image
           fill
+          alt=""
           src={img}
           style={{ objectFit: "cover" }}
           className="rounded-2xl"

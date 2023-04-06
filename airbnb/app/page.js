@@ -1,8 +1,8 @@
 import { Inter } from "next/font/google";
-import Baner from "./components/Baner";
-import { ExploreNearby } from "./components/ExploreNearby";
-import { LiveAnywere } from "./components/LiveAnywere";
-import { LargeCard } from "./components/LargeCard";
+import Baner from "../src/components/Baner";
+import { ExploreNearby } from "../src/components/ExploreNearby";
+import { LiveAnywere } from "../src/components/LiveAnywere";
+import { LargeCard } from "../src/components/LargeCard";
 
 const inter = Inter({ subsets: ["latin"] });
 
