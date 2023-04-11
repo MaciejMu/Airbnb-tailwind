@@ -6,11 +6,11 @@ import { LargeCard } from "../src/components/LargeCard";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Baner></Baner>
-      <main className="max-w-7xl mx-auto px-8 sm:px-16">
+      <main className=" max-w-7xl mx-auto px-8 sm:px-16">
         <ExploreNearby />
         <LiveAnywere />
         <LargeCard
@@ -22,4 +22,6 @@ export default function Home() {
       </main>
     </>
   );
-}
+};
+
+export default Home;
